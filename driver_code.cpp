@@ -16,7 +16,7 @@ and that solves the MPC problem
 #include<Eigen/Dense>
 
 #include "ModelPredictiveController.h"
-#include "ModelPredictiveController.cpp"
+// #include "ModelPredictiveController.cpp"
 
 using namespace Eigen;
 using namespace std;

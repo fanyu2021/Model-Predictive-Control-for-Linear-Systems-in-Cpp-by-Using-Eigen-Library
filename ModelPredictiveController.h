@@ -1,4 +1,12 @@
 /*
+ * @Author: 范雨 fantiming@yeah.net
+ * @Date: 2024-10-12 13:38:12
+ * @LastEditors: 范雨 fantiming@yeah.net
+ * @LastEditTime: 2024-10-12 13:43:15
+ * @FilePath: /Model-Predictive-Control-for-Linear-Systems-in-Cpp-by-Using-Eigen-Library/ModelPredictiveController.h
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
+/*
 Model Predictive Control implementation in C++
 Author:Aleksandar Haber 
 Date: September 2023 
@@ -52,7 +60,7 @@ class ModelPredictiveController{
         // outputsFile  - name of the file used to store the computed outputs - this is the controlled output
         // Ofile        - name of the file used to store the O lifted matrix - you can use this for diagonostics
         // Mfile        - name of the file used to store the M lifted matrix - you can use this for diagonostics
-        void ModelPredictiveController::saveData(string desiredControlTrajectoryTotalFile, string inputsFile, 
+        void saveData(string desiredControlTrajectoryTotalFile, string inputsFile, 
 							string statesFile, string outputsFile,string OFile, string MFile) const;
 
     private:
